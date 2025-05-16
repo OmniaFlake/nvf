@@ -12,7 +12,9 @@
        nix = {
 	      enable = true;
       };
-           
+      python = {
+        enable = true;
+      };   
     };
 
   };
