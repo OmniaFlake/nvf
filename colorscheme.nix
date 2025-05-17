@@ -1,7 +1,7 @@
 {
   vim = {
     theme = {
-      enable = true;
+      enable = false;
       name = "tokyonight";
       style = "moon";
     };

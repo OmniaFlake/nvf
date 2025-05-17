@@ -16,6 +16,7 @@
   autocmd ColorScheme * highlight NonText ctermbg=none guibg=none
   augroup END
 ]])
+      vim.cmd([[colorscheme torte]])
         ";
   };
 }
