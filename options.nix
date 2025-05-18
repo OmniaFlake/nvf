@@ -3,6 +3,10 @@
     globals = {
       mapleader = " ";
     };
+    options = {
+      shiftwidth = 2;
+      tabstop = 2;
+    };
     autopairs.nvim-autopairs.enable = true;
     luaConfigPre = "
       vim.cmd([[
@@ -16,7 +20,6 @@
       vim.cmd([[set tabstop=2]])
       vim.cmd([[set expandtab]])
       vim.cmd([[set shiftwidth=2]])
-
         ";
   };
 }
