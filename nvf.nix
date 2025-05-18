@@ -6,6 +6,7 @@
     ./plugins/autocomplete.nix
     ./plugins/lualine.nix
     ./options.nix
+    ./lua.nix
     ./keymap.nix
     ./colorscheme.nix
   ];
