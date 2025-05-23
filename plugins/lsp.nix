@@ -3,20 +3,12 @@
     languages = {
       enableTreesitter = true;
       enableLSP = true;
-      rust = {
-	      enable = true;
-      };
-      lua = {
-	      enable = true;
-      };
-       nix = {
-	      enable = true;
-      };
-      python = {
-        enable = true;
-      };   
+      rust.enable = true;
+      go.enable = true;
+      python.enable = true;
+      zig.enable = true;
+      nix.enable = true;
     };
-
   };
 
 }
