@@ -1,5 +1,6 @@
 {
   vim = {
+    
     keymaps = [
       {
         key = "<leader>e";
@@ -8,23 +9,23 @@
         action = "<cmd>Neotree toggle<CR>";
       }
       {
-	      key = "<leader>fc";
-        mode = "n";
-	      silent = true;
-        action = "<cmd>Telescope colorscheme<CR>";
-      }
-      {
-	      key = "-";
+	      key = "<leader>";
         mode = "n";
 	      silent = true;
         action = "<cmd>q!<CR>";
       }
       {
-	      key = "=";
+	      key = "<leader>=";
         mode = "n";
         silent = true;
         action = "<cmd>wa<CR>";
       }
-    ];
+      {
+	      key = "<leader>fc";
+        mode = "n";
+	      silent = true;
+        action = "<cmd>Telescope colorscheme<CR>";
+      }
+   ];
   };
 }
