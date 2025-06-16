@@ -9,23 +9,17 @@
         action = "<cmd>Neotree toggle<CR>";
       }
       {
-	      key = "<leader>";
-        mode = "n";
-	      silent = true;
-        action = "<cmd>q!<CR>";
-      }
-      {
 	      key = "<leader>=";
         mode = "n";
         silent = true;
         action = "<cmd>wa<CR>";
       }
       {
-	      key = "<leader>fc";
+        key = "<leader>fc";
         mode = "n";
 	      silent = true;
         action = "<cmd>Telescope colorscheme<CR>";
       }
-   ];
+    ];
   };
 }
