@@ -6,6 +6,7 @@
       rust.enable = true;
       go.enable = true;
       python.enable = true;
+      lsp.enable = true;
       zig.enable = true;
       nix.enable = true;
     };
