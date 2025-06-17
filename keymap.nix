@@ -1,6 +1,5 @@
 {
   vim = {
-    
     keymaps = [
       {
         key = "<leader>e";
